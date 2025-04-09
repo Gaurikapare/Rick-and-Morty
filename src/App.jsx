@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react"
 import logo from "./assets/logo.png"
 import Card from "./component/card"
-Card
 
 function App() {
 
   const BASE_URL = 'https://rickandmortyapi.com/api'
 
   const [allCharacters, setAllCharacters] = useState(null)
-  const [character, setCharacter] = useState(null)
+  const [character, setCharacter] = useState(null) // testing imports
   const [input, setInput] = useState('')
 
   useEffect(() => {
